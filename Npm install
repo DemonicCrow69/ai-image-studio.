@@ -1,0 +1,12 @@
+# 1. Clone your repo (replace with your GitHub URL)
+git clone https://github.com/YOUR_USERNAME/ai-image-studio.git
+cd ai-image-studio
+
+# 2. Install dependencies
+npm install
+
+# 3. Create .env.local and add your API key (replace with your real key)
+echo "OPENAI_API_KEY=sk-your_openai_api_key_here" > .env.local
+
+# 4. Start the dev server
+npm run dev
