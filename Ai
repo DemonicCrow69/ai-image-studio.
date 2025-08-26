@@ -1,0 +1,18 @@
+# Clone an empty Next.js starter
+npx create-next-app@latest ai-image-studio --typescript --tailwind --eslint
+
+cd ai-image-studio
+
+# Remove the starter .git (we’ll re-init)
+rm -rf .git
+
+# Initialize new repo
+git init
+git add .
+git commit -m "Initial commit - AI Image Studio"
+
+# Connect to your GitHub repo (replace with your repo URL!)
+git remote add origin https://github.com/YOUR_USERNAME/ai-image-studio.git
+
+git branch -M main
+git push -u origin main
